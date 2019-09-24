@@ -1,0 +1,10 @@
+.search form{margin-bottom:0}
+.search input{vertical-align:middle;height: 52px;border: 1px solid #ccc;}
+.search .search-input {background: #fafafa; padding: 0 15px; width: 250px;}
+.search .search-icon {background:url('https://lrrhero2008.github.io/ebay-saveonmany/public/img/ser.jpg') center no-repeat #fafafa;border-left:0;width:52px;margin-left: -5px;}
+
+.nav {background:#3a3a3a;color:#fff;height: 50px;line-height: 50px;margin-top: 15px;}
+.nav >div{padding:0 20px}
+.nav >div a{color:#fff}
+.nav .menu-category {padding:0}
+.menu-category .menu-title{background:#e90015;padding:0 25px;cursor: pointer;}
