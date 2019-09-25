@@ -1,3 +1,13 @@
+.saveonmany #gh-top {
+    width: 1140px;
+    left: 50%;
+    margin-left: -600px;
+}
+.saveonmany .gh-tbl, .saveonmany .tb_v4bc {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .search form{margin-bottom:0}
 .search input{vertical-align:middle;height: 52px;border: 1px solid #ccc;}
 .search .search-input {background: #fafafa; padding: 0 15px; width: 250px;}
@@ -10,27 +20,34 @@
 .menu-category .menu-title{background:#e90015;padding:0 25px;cursor: pointer;}
 .carousel-control-next-icon, .carousel-control-prev-icon{width: 25px;height: 25px}
 
-.stores-intro{text-align: center;color:#fff;font-size: 24px}
-.stores-intro .bg-red{background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff5714+0,ff2424+99 */
+.stores-intro{margin-top:30px;text-align: center;color:#fff;font-size: 24px}
+.stores-intro > div.bg-red{margin-left:0}
+.stores-intro > div{width:360px;height:180px;margin-left:30px}
+.stores-intro > div img{margin: 22px 0;}
+.stores-intro > div.bg-red img{margin: 25px 0 10px;}
+.stores-intro > div.bg-red p{margin-bottom: 2px;}
+.stores-intro > div:first-child{margin-left:0}
+.stores-intro > div{width:360px;height:180px;margin-left:30px}
+.stores-intro .bg-red{
 background: #ff5714; /* Old browsers */
 background: -moz-linear-gradient(45deg,  #ff5714 0%, #ff2424 99%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg,  #ff5714 0%,#ff2424 99%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(45deg,  #ff5714 0%,#ff2424 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5714', endColorstr='#ff2424',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-.stores-intro .bg-green{background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8dbb66+0,498e3c+100 */
+.stores-intro .bg-green{
 background: #8dbb66; /* Old browsers */
 background: -moz-linear-gradient(45deg,  #8dbb66 0%, #498e3c 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg,  #8dbb66 0%,#498e3c 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(45deg,  #8dbb66 0%,#498e3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbb66', endColorstr='#498e3c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-.stores-intro .bg-blue{background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#458ce8+0,2b56b5+100 */
+.stores-intro .bg-blue{
 background: #458ce8; /* Old browsers */
 background: -moz-linear-gradient(top,  #458ce8 0%, #2b56b5 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #458ce8 0%,#2b56b5 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #458ce8 0%,#2b56b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#458ce8', endColorstr='#2b56b5',GradientType=0 ); /* IE6-9 */
 }
-.stores-intro p{font-style: 24px}
+.stores-intro p{font-size: 24px}
 .stores-intro small{font-size: 14px}
