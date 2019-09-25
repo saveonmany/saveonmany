@@ -7,11 +7,12 @@
     width: 1140px;
     margin: 0 auto;
 }
-
+.custom-page, .content.main {margin: 0 auto;width: 1140px}
 .search form{margin-bottom:0}
 .search input{vertical-align:middle;height: 52px;border: 1px solid #ccc;}
 .search .search-input {background: #fafafa; padding: 0 15px; width: 250px;}
 .search .search-icon {background:url('../images/search-icon.jpg') center no-repeat #fafafa;width:52px;margin-left: -5px;border-left: 0}
+.search .search-input:focus{outline:none}
 
 .nav {background:#3a3a3a;color:#fff;height: 50px;line-height: 50px;margin-top: 15px;}
 .nav >div{padding:0 20px}
@@ -20,7 +21,7 @@
 .menu-category .menu-title{background:#e90015;padding:0 25px;cursor: pointer;}
 .carousel-control-next-icon, .carousel-control-prev-icon{width: 25px;height: 25px}
 
-.stores-intro{margin-top:30px;text-align: center;color:#fff;font-size: 24px}
+.stores-intro{margin:30px 0;text-align: center;color:#fff;font-size: 24px}
 .stores-intro > div.bg-red{margin-left:0}
 .stores-intro > div{width:360px;height:180px;margin-left:30px}
 .stores-intro > div img{margin: 22px 0;}
@@ -51,3 +52,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#458ce8', end
 }
 .stores-intro p{font-size: 24px}
 .stores-intro small{font-size: 14px}
+
+.all-categories{}
