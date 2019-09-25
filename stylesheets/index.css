@@ -53,6 +53,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#458ce8', end
 .stores-intro p{font-size: 24px}
 .stores-intro small{font-size: 14px}
 
-.all-categories{}
-.all-categories .flex-fill{width: 220px;height:220px;position: relative;margin-bottom: 30px}
-.all-categories .flex-fill span {background-color: rgba(0,0,0,0.5);position: absolute; bottom: 0; left: 0;width: 100%;text-align: center;}
+.all-categories{margin-right:-10px;}
+.all-categories a{width: 220px;height:220px;position: relative;margin:0 10px 30px 0;}
+.all-categories a span {background-color: rgba(0,0,0,0.5);position: absolute; bottom: 0; left: 0;width: 100%;text-align: center;color: #fff}
