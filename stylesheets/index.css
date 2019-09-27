@@ -58,3 +58,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#458ce8', end
 .all-categories a{width: 220px;height:220px;position: relative;margin:0 10px 30px 0;}
 .all-categories a:hover {box-shadow: 3px 3px 3px rgba(0,0,0,0.3);}
 .all-categories a span {background-color: rgba(0,0,0,0.5);position: absolute; bottom: 0; left: 0;width: 100%;text-align: center;color: #fff;height: 30px;line-height: 30px;}
+
+/*nav*/
+.nav .sub-nav {position: absolute;left: 0;z-index: 2;background: #fff;color: #333;display: none}
+.nav .sub-nav ul.lev1{list-style:none;padding: 15px 20px 0 30px;white-space: nowrap;font-size: 14px;line-height: 30px;}
+.nav .sub-nav a{color:#333}
+.nav .sub-nav li:hover{text-decoration:underline;color: #e90015;}
+.nav .sub-nav li:hover a{color: #e90015;
+
