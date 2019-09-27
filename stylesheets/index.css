@@ -17,7 +17,7 @@
 .nav {background:#3a3a3a;color:#fff;height: 50px;line-height: 50px;margin-top: 15px;}
 .nav >div{padding:0 20px}
 .nav >div a{color:#fff}
-.nav .menu-category {padding:0}
+.nav .menu-category {padding:0;position: relative;}
 .menu-category .menu-title{background:#e90015;padding:0 25px;cursor: pointer;}
 .carousel-control-next-icon, .carousel-control-prev-icon{width: 25px;height: 25px}
 
