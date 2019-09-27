@@ -8,9 +8,9 @@ $(function(){
 
 	//sub-nav display
 	$('.menu-category').hover(function(){
-    $('.sub-nav').slideDown()
+    $('.sub-nav').show()
     },function(){
-    $('.sub-nav').slideUp()
+    $('.sub-nav').hide()
   });
 
 	//banner carousel
